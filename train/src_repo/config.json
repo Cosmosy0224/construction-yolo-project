@@ -1,0 +1,24 @@
+{
+"pre_model": "yolo26s.pt",
+"project": "/project/train/models",
+"name": "model",
+"time": 10,
+"batch": 16,
+"workers": 4,
+"imgsz": 768,
+"cache": "disk",
+"patience": 30,
+"class_names": [
+    "crane",
+    "collapsed_crane",
+    "tower_crane",
+    "drilling_rig",
+    "concrete_mixing_truck",
+    "excavating_machinery",
+    "bulldozer",
+    "roller",
+    "other_large_lifting_equipment",
+    "mechanical_arm",
+    "mechanical_base"
+]
+}
